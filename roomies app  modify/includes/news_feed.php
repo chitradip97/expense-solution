@@ -137,11 +137,32 @@
                                         </div>
                                     </div>
                                 </div>
-                                        
+                                <div class="card-body">
+                                    
+                                    <!-- <div class="card"> -->
+                                        <div class="card-header">
+                                            <h3><b>Status :</b></h3>
+                                        </div>
                                         <div class="card-body">
-                                            Content
+                                            <!-- post content -->
+                                            <div class="container mt-3 ">
+                                                
+                                                <div class="card ms-5" style="width:400px">
+                                                    <img class="card-img-top" src="../assets/img/party.jpg" alt="Card image" style="width:100%">
+                                                    <div class="card-body">
+                                                    <h4 class="card-title">Launch a party</h4>
+                                                    <p class="card-text">Let's have fun Guy's. Tomorrow be there at sharp 8PM. Adress:Eden Garden, franklin club. </p>
+                                                    <p class="card-text text-muted">Post By-<b>Chitro</b></p>
+                                                    <a href="#" class="btn btn-primary ms-5">Comments</a>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div> 
-                                        <div class="card-footer">Footer</div>
+                                        
+                                    <!-- </div> -->
+                                </div> 
+                                <!-- <div class="card-footer">Footer</div> -->
+                                        
                                     
                         </div>
                                      
@@ -157,7 +178,7 @@
         </div>
     </div>
 
-    <div class="row bg-info">
+    <div class="row bg-info pt-2">
         <div class="footer_content py-4">
             <div class="container">
               <div class="row">
