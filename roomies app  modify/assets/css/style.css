@@ -125,7 +125,7 @@ li {
           
           .darker {
             border-color: #ccc;
-            background-color: #e3d322;
+            background-color: #f3e116;
           }
           .lighter{
             border-color: #ccc;
@@ -154,12 +154,12 @@ li {
           
           .time-right {
             float: right;
-            color: #aaa;
+            color: #4f4e4e;
           }
           
           .time-left {
             float: left;
-            color: #999;
+            color: #4f4e4e;
           }
           .chat{
             height: 370px;
