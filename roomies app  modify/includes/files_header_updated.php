@@ -62,7 +62,7 @@
         <nav id="sidebar" class="bg_color  p-2  ">
             <!-- <div class="container-fluid "> -->
                 
-                <div style="background-color:DodgerBlue;text-align: center;"><h4 style="display:inline-block; ">Chat Messages</h4></div>
+                <div style="background-color:DodgerBlue;text-align: center;"><h4 style="display:inline-block; "><b>Chat Messages</b></h4></div>
                 <div class="chat mt-2">
                     <div class="container-fluid lighter" >
                         <img src="" alt="Avatar" style="width:100%; ">
