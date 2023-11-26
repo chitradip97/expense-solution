@@ -116,14 +116,39 @@
     <div class="row">
         <div class="col-xl-12 col-md-12">
             <div class="card  ">
-                <div class="card-footer"> <h5 class="basic_font">My Expendature :</h5> </div>
+                <div class="card-footer"> <h5 class="basic_font">News Feed :</h5> </div>
                 <div class="card-body ">
-                            
-                                           
+                         
+                    <!-- <div class="container "> -->
+                        <!-- <h2>Card Header and Footer</h2> -->
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-2 ">
+                                            <div class="circular--portrait mt-3">
+                                            <img src="../assets/img/myimg.jpg" alt="Avatar"  class=" logo_icon avatar">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-10">
+                                            <textarea class="form-control mt-1" rows="2" col="3" id="comment"></textarea>
+                                            <button class="btn btn-primary mt-1 padding-bottom-3" style="float:right;">Post</button>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                        
+                                        <div class="card-body">
+                                            Content
+                                        </div> 
+                                        <div class="card-footer">Footer</div>
+                                    
+                        </div>
+                                     
                         
                             
                             
-                </div>
+                    <!-- </div> -->
                 
                     
                     

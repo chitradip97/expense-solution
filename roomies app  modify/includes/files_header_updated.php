@@ -65,40 +65,40 @@
                 <div style="background-color:DodgerBlue;text-align: center;"><h4 style="display:inline-block; "><b>Chat Messages</b></h4></div>
                 <div class="chat mt-2">
                     <div class="container-fluid lighter" >
-                        <img src="" alt="Avatar" style="width:100%; ">
+                        <img src="" alt="Avatar" class="chat_logo" style="width:100%; ">
                         <span class="time-right">11:00</span>
                         <p class="chat_font">Hello. How are you today?</p>
                         
                     </div>
 
                     <div class="container-fluid darker">
-                        <img src="" alt="Avatar" class="right" style="width:100%;">
+                        <img src="" alt="Avatar" class="right chat_logo" style="width:100%;">
                         <span class="time-left">11:01</span>
                         <p class="chat_font">Hey! I'm fine. Thanks for asking!</p>
                         
                     </div>
 
                     <div class="container-fluid lighter">
-                        <img src="" alt="Avatar" style="width:100%;">
+                        <img src="" alt="Avatar" class="chat_logo" style="width:100%;">
                         <span class="time-right">11:02</span>
                         <p class="chat_font">Sweet! So, what do you wanna do today?</p>
                         
                     </div>
 
                     <div class="container-fluid darker">
-                        <img src="" alt="Avatar" class="right" style="width:100%;">
+                        <img src="" alt="Avatar" class="chat_logo" class="right chat_logo" style="width:100%;">
                         <span class="time-left">11:05</span>
                         <p class="chat_font">Nah, I dunno. Play soccer.. or learn more coding</p>
                         
                     </div>
                     <div class="container-fluid lighter">
-                        <img src="" alt="Avatar" style="width:100%;">
+                        <img src="" alt="Avatar" class="chat_logo" style="width:100%;">
                         <span class="time-right">11:06</span>
                         <p class="chat_font">Sweet! So, what do you wanna do today?</p>
                         
                     </div>
                     <div class="container-fluid darker">
-                        <img src="" alt="Avatar" class="right" style="width:100%;">
+                        <img src="" alt="Avatar" class="right chat_logo" style="width:100%;">
                         <span class="time-left">11:07</span>
                         <p class="chat_font">Sweet! So, what do you wanna do today?</p>
                         
