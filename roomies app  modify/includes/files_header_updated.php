@@ -59,12 +59,48 @@
     <div class="row  ">  -->
 
 <div class="right_sidebar  mt-2 ms-2 mt-2 me-2">
-        <nav id="sidebar" class="bg_color  p-4  ">
-            <a href="dashboard.php" class="anchor "><h5 class="bar_option">News Feed1</h5></a>
-            <a href="create_order.php" class="anchor"><h5 class="bar_option">My Expense</h5></a>
-            <a href="orders_list.php" class="anchor"><h5 class="bar_option">Others Expense</h5></a>
-            <a href="create_order.php" class="anchor"><h5 class="bar_option">Contribution</h5></a>
-            <a href="orders_list.php" class="anchor"><h5 class="bar_option">Others</h5></a>
+        <nav id="sidebar" class="bg_color  p-2  ">
+            <!-- <div class="container-fluid "> -->
+                
+                <div style="background-color:DodgerBlue;text-align: center;"><h4 style="display:inline-block; ">Chat Messages</h4></div>
+                <div class="chat mt-3">
+                    <div class="container-fluid lighter" >
+                        <img src="" alt="Avatar" style="width:100%;">
+                        <p class="chat_font">Hello. How are you today?</p>
+                        <span class="time-right">11:00</span>
+                    </div>
+
+                    <div class="container-fluid darker">
+                        <img src="" alt="Avatar" class="right" style="width:100%;">
+                        <p class="chat_font">Hey! I'm fine. Thanks for asking!</p>
+                        <span class="time-left">11:01</span>
+                    </div>
+
+                    <div class="container-fluid lighter">
+                        <img src="" alt="Avatar" style="width:100%;">
+                        <p class="chat_font">Sweet! So, what do you wanna do today?</p>
+                        <span class="time-right">11:02</span>
+                    </div>
+
+                    <div class="container-fluid darker">
+                        <img src="" alt="Avatar" class="right" style="width:100%;">
+                        <p class="chat_font">Nah, I dunno. Play soccer.. or learn more coding perhaps?</p>
+                        <span class="time-left">11:05</span>
+                    </div>
+                    <div class="container-fluid lighter">
+                        <img src="" alt="Avatar" style="width:100%;">
+                        <p class="chat_font">Sweet! So, what do you wanna do today?</p>
+                        <span class="time-right">11:06</span>
+                    </div>
+                    <div class="container-fluid darker">
+                        <img src="" alt="Avatar" style="width:100%;">
+                        <p class="chat_font">Sweet! So, what do you wanna do today?</p>
+                        <span class="time-left">11:07</span>
+                    </div>
+                </div>
+                <textarea class="form-control mt-1" rows="2" col="3" id="comment"></textarea>
+                <button class="btn btn-primary mt-1 padding-bottom-3" style="float:right;">Send</button>
+            <!-- </div> -->
         </nav>
 </div>
 <!-- </div>
