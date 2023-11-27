@@ -22,7 +22,7 @@
                         <img src="../assets/img/app_logo.png" alt="" style="width:50px; height:50px margin-top:100px">
                     </div>
                     <div>
-                    <h3 class="ps-2 mt-2"><b>Expence solution</b></h3> 
+                    <h3 class="ps-2 mt-2"><b>Expence Media</b></h3> 
                     </div>
                 </div>
             </div>
@@ -43,9 +43,9 @@
     <div class="row  ">  -->
 <div class="left_sidebar  mt-2 ms-2">
     <nav id="sidebar" class="bg_color  p-4  ">
-            <a href="dashboard.php" class="anchor "><h5 class="bar_option">News Feed</h5></a>
-            <a href="create_order.php" class="anchor"><h5 class="bar_option">My Expense</h5></a>
-            <a href="orders_list.php" class="anchor"><h5 class="bar_option">Others Expense</h5></a>
+            <a href="news_feed.php" class="anchor "><h5 class="bar_option">News Feed</h5></a>
+            <a href="files_header_updated.php" class="anchor"><h5 class="bar_option bg-primary">My Expense</h5></a>
+            <a href="others_expendature.php" class="anchor"><h5 class="bar_option">Others Expense</h5></a>
             <a href="create_order.php" class="anchor"><h5 class="bar_option">Contribution</h5></a>
             <a href="orders_list.php" class="anchor"><h5 class="bar_option">Others</h5></a>
     </nav>
@@ -62,50 +62,31 @@
         <nav id="sidebar" class="bg_color  p-2  ">
             <!-- <div class="container-fluid "> -->
                 
-                <div style="background-color:DodgerBlue;text-align: center;"><h4 style="display:inline-block; "><b>Chat Messages</b></h4></div>
+                <div style="background-color:DodgerBlue;text-align: center;"><h4 style="display:inline-block; "><b>Add Expence :</b></h4></div>
                 <div class="chat mt-2">
-                    <div class="container-fluid lighter" >
-                        <img src="" alt="Avatar" class="chat_logo" style="width:100%; ">
-                        <span class="time-right">11:00</span>
-                        <p class="chat_font">Hello. How are you today?</p>
-                        
-                    </div>
-
-                    <div class="container-fluid darker">
-                        <img src="" alt="Avatar" class="right chat_logo" style="width:100%;">
-                        <span class="time-left">11:01</span>
-                        <p class="chat_font">Hey! I'm fine. Thanks for asking!</p>
-                        
-                    </div>
-
-                    <div class="container-fluid lighter">
-                        <img src="" alt="Avatar" class="chat_logo" style="width:100%;">
-                        <span class="time-right">11:02</span>
-                        <p class="chat_font">Sweet! So, what do you wanna do today?</p>
-                        
-                    </div>
-
-                    <div class="container-fluid darker">
-                        <img src="" alt="Avatar" class="chat_logo" class="right chat_logo" style="width:100%;">
-                        <span class="time-left">11:05</span>
-                        <p class="chat_font">Nah, I dunno. Play soccer.. or learn more coding</p>
-                        
-                    </div>
-                    <div class="container-fluid lighter">
-                        <img src="" alt="Avatar" class="chat_logo" style="width:100%;">
-                        <span class="time-right">11:06</span>
-                        <p class="chat_font">Sweet! So, what do you wanna do today?</p>
-                        
-                    </div>
-                    <div class="container-fluid darker">
-                        <img src="" alt="Avatar" class="right chat_logo" style="width:100%;">
-                        <span class="time-left">11:07</span>
-                        <p class="chat_font">Sweet! So, what do you wanna do today?</p>
-                        
-                    </div>
+                    <!-- <h2>Stacked form</h2> -->
+                    <form action="/action_page.php">
+                        <div class="mb-3 mt-3">
+                            <label for="itm_nm">Items:</label>
+                            <input type="text" class="form-control" id="itm_nm" placeholder="Enter Item" >
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <label for="itm_amt">Amount:</label>
+                            <input type="number" class="form-control" id="itm_amt" placeholder="Enter Item amount" >
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <label for="itm_amt">Amount Unit:</label>
+                            <select name="weight" id="weight">
+                                            <option value="KG">KG</option>
+                                            <option value="Gram">Gram</option>
+                                            <option value="Ltr">Ltr</option>
+                                            <option value="Pc">Pc</option>
+                            </select>
+                        </div>
+                    </form>
                 </div>
-                <textarea class="form-control mt-1" rows="2" col="3" id="comment"></textarea>
-                <button class="btn btn-primary mt-1 padding-bottom-3" style="float:right;">Send</button>
+                
+                <button class="btn btn-primary mt-1 me-5 padding-bottom-3" style="float:right;">Update</button>
             <!-- </div> -->
         </nav>
 </div>

@@ -22,7 +22,7 @@
                         <img src="../assets/img/app_logo.png" alt="" style="width:50px; height:50px margin-top:100px">
                     </div>
                     <div>
-                    <h3 class="ps-2 mt-2"><b>Expence solution</b></h3> 
+                    <h3 class="ps-2 mt-2"><b>Expence Media</b></h3> 
                     </div>
                 </div>
             </div>
@@ -43,9 +43,9 @@
     <div class="row  ">  -->
 <div class="left_sidebar  mt-2 ms-2">
     <nav id="sidebar" class="bg_color  p-4  ">
-            <a href="dashboard.php" class="anchor "><h5 class="bar_option">News Feed</h5></a>
-            <a href="create_order.php" class="anchor"><h5 class="bar_option">My Expense</h5></a>
-            <a href="orders_list.php" class="anchor"><h5 class="bar_option">Others Expense</h5></a>
+            <a href="news_feed.php" class="anchor "><h5 class="bar_option bg-primary">News Feed</h5></a>
+            <a href="files_header_updated.php" class="anchor"><h5 class="bar_option">My Expense</h5></a>
+            <a href="others_expendature.php" class="anchor"><h5 class="bar_option">Others Expense</h5></a>
             <a href="create_order.php" class="anchor"><h5 class="bar_option">Contribution</h5></a>
             <a href="orders_list.php" class="anchor"><h5 class="bar_option">Others</h5></a>
     </nav>

@@ -22,7 +22,7 @@
                         <img src="../assets/img/app_logo.png" alt="" style="width:50px; height:50px margin-top:100px">
                     </div>
                     <div>
-                    <h3 class="ps-2 mt-2"><b>Expence solution</b></h3> 
+                    <h3 class="ps-2 mt-2"><b>Expence Media</b></h3> 
                     </div>
                 </div>
             </div>
@@ -43,9 +43,9 @@
     <div class="row  ">  -->
 <div class="left_sidebar  mt-2 ms-2">
     <nav id="sidebar" class="bg_color  p-4  ">
-            <a href="dashboard.php" class="anchor "><h5 class="bar_option">News Feed</h5></a>
-            <a href="create_order.php" class="anchor"><h5 class="bar_option">My Expense</h5></a>
-            <a href="orders_list.php" class="anchor"><h5 class="bar_option">Others Expense</h5></a>
+            <a href="news_feed.php" class="anchor "><h5 class="bar_option">News Feed</h5></a>
+            <a href="files_header_updated.php" class="anchor"><h5 class="bar_option">My Expense</h5></a>
+            <a href="others_expendature.php" class="anchor"><h5 class="bar_option bg-primary">Others Expense</h5></a>
             <a href="create_order.php" class="anchor"><h5 class="bar_option">Contribution</h5></a>
             <a href="orders_list.php" class="anchor"><h5 class="bar_option">Others</h5></a>
     </nav>
@@ -62,50 +62,26 @@
         <nav id="sidebar" class="bg_color  p-2  ">
             <!-- <div class="container-fluid "> -->
                 
-                <div style="background-color:DodgerBlue;text-align: center;"><h4 style="display:inline-block; "><b>Chat Messages</b></h4></div>
+                <div style="background-color:DodgerBlue;text-align: center;"><h4 style="display:inline-block; "><b>System Information :</b></h4></div>
                 <div class="chat mt-2">
-                    <div class="container-fluid lighter" >
-                        <img src="" alt="Avatar" class="chat_logo" style="width:100%; ">
-                        <span class="time-right">11:00</span>
-                        <p class="chat_font">Hello. How are you today?</p>
-                        
-                    </div>
+                    <table class="table  table-striped">
+                        <tr class=".darker">
+                            <td>User-1 :</td>
+                            <td>Chitradip Dey</td>
+                        </tr>
+                        <tr class=".lighter">
+                            <td>User-2 :</td>
+                            <td>Amit Singh</td>
+                        </tr>
+                        <tr class=".darker">
+                            <td>User-3 :</td>
+                            <td>Supriya Debnath</td>
+                        </tr>
 
-                    <div class="container-fluid darker">
-                        <img src="" alt="Avatar" class="right chat_logo" style="width:100%;">
-                        <span class="time-left">11:01</span>
-                        <p class="chat_font">Hey! I'm fine. Thanks for asking!</p>
-                        
-                    </div>
-
-                    <div class="container-fluid lighter">
-                        <img src="" alt="Avatar" class="chat_logo" style="width:100%;">
-                        <span class="time-right">11:02</span>
-                        <p class="chat_font">Sweet! So, what do you wanna do today?</p>
-                        
-                    </div>
-
-                    <div class="container-fluid darker">
-                        <img src="" alt="Avatar" class="chat_logo" class="right chat_logo" style="width:100%;">
-                        <span class="time-left">11:05</span>
-                        <p class="chat_font">Nah, I dunno. Play soccer.. or learn more coding</p>
-                        
-                    </div>
-                    <div class="container-fluid lighter">
-                        <img src="" alt="Avatar" class="chat_logo" style="width:100%;">
-                        <span class="time-right">11:06</span>
-                        <p class="chat_font">Sweet! So, what do you wanna do today?</p>
-                        
-                    </div>
-                    <div class="container-fluid darker">
-                        <img src="" alt="Avatar" class="right chat_logo" style="width:100%;">
-                        <span class="time-left">11:07</span>
-                        <p class="chat_font">Sweet! So, what do you wanna do today?</p>
-                        
-                    </div>
+                    </table>
                 </div>
-                <textarea class="form-control mt-1" rows="2" col="3" id="comment"></textarea>
-                <button class="btn btn-primary mt-1 padding-bottom-3" style="float:right;">Send</button>
+                <!-- <textarea class="form-control mt-1" rows="2" col="3" id="comment"></textarea>
+                <button class="btn btn-primary mt-1 padding-bottom-3" style="float:right;">Send</button> -->
             <!-- </div> -->
         </nav>
 </div>
@@ -116,7 +92,7 @@
     <div class="row">
         <div class="col-xl-12 col-md-12">
             <div class="card  ">
-                <div class="card-footer"> <h5 class="basic_font">My Expendature :</h5> </div>
+                <div class="card-header"> <h5 class="basic_font">Chitro Expendature :</h5> </div>
                 <div class="card-body ">
                             
                                            
@@ -127,7 +103,7 @@
                                     <th>Date</th>
                                     <th>Items</th>
                                     <th>Amount</th>
-                                    <th>Action</th>
+                                    <!-- <th>Action</th> -->
                                 </tr>
                             </thead>
                             <tbody>
@@ -147,10 +123,10 @@
                                         </select>
                                         
                                     </td>
-                                    <td>
+                                    <!-- <td>
                                         <a href="view_customer_edit.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-success">Edit</button></a>
                                         <a href="view_customer_delete.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-danger">Delete</button></a>
-                                    </td>
+                                    </td> -->
                                 </tr>
 
                                 <tr>
@@ -167,10 +143,10 @@
                                         </select>
                                         
                                     </td>
-                                    <td>
+                                    <!-- <td>
                                         <a href="view_customer_edit.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-success">Edit</button></a>
                                         <a href="view_customer_delete.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-danger">Delete</button></a>
-                                    </td>
+                                    </td> -->
                                 </tr>
 
                                 <tr>
@@ -187,10 +163,10 @@
                                         </select>
                                         
                                     </td>
-                                    <td>
+                                    <!-- <td>
                                         <a href="view_customer_edit.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-success">Edit</button></a>
                                         <a href="view_customer_delete.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-danger">Delete</button></a>
-                                    </td>
+                                    </td> -->
                                 </tr>
 
                                 <tr>
@@ -207,10 +183,10 @@
                                         </select>
                                         
                                     </td>
-                                    <td>
+                                    <!-- <td>
                                         <a href="view_customer_edit.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-success">Edit</button></a>
                                         <a href="view_customer_delete.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-danger">Delete</button></a>
-                                    </td>
+                                    </td> -->
                                 </tr>
                                 <tr>
                                     <td>2</td>
@@ -226,10 +202,10 @@
                                         </select>
                                         
                                     </td>
-                                    <td>
+                                    <!-- <td>
                                         <a href="view_customer_edit.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-success">Edit</button></a>
                                         <a href="view_customer_delete.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-danger">Delete</button></a>
-                                    </td>
+                                    </td> -->
                                 </tr>
 
                                 <tr>
@@ -246,10 +222,98 @@
                                         </select>
                                         
                                     </td>
-                                    <td>
+                                    <!-- <td>
                                         <a href="view_customer_edit.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-success">Edit</button></a>
                                         <a href="view_customer_delete.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-danger">Delete</button></a>
+                                    </td> -->
+                                </tr>
+
+                                
+                               
+
+
+
+                               
+                            </tbody>
+                        </table>
+                            
+                            
+                </div>
+                <div class="card-header"> <h5 class="basic_font">Amit Expendature :</h5> </div>
+                <div class="card-body ">
+                            
+                                           
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Sr No</th>
+                                    <th>Date</th>
+                                    <th>Items</th>
+                                    <th>Amount</th>
+                                    <!-- <th>Action</th> -->
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                
+                                <tr>
+                                    <td>1</td>
+                                    <td>10/5/23</td>
+                                    <td>Basmati Rice</td>
+                                    <td>
+                                        10
+                                        <select name="weight" id="weight">
+                                            <option value="KG">KG</option>
+                                            <option value="Gram">Gram</option>
+                                            <option value="Ltr">Ltr</option>
+                                            <option value="Pc">Pc</option>
+                                        </select>
+                                        
                                     </td>
+                                    <!-- <td>
+                                        <a href="view_customer_edit.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-success">Edit</button></a>
+                                        <a href="view_customer_delete.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-danger">Delete</button></a>
+                                    </td> -->
+                                </tr>
+
+                                <tr>
+                                    <td>2</td>
+                                    <td>15/5/23</td>
+                                    <td>Amul Milk</td>
+                                    <td>
+                                        20
+                                        <select name="weight" id="weight">
+                                            <option value="KG">KG</option>
+                                            <option value="Gram">Gram</option>
+                                            <option value="Ltr">Ltr</option>
+                                            <option value="Pc">Pc</option>
+                                        </select>
+                                        
+                                    </td>
+                                    <!-- <td>
+                                        <a href="view_customer_edit.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-success">Edit</button></a>
+                                        <a href="view_customer_delete.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-danger">Delete</button></a>
+                                    </td> -->
+                                </tr>
+
+                                <tr>
+                                    <td>3</td>
+                                    <td>21/5/23</td>
+                                    <td>Gas</td>
+                                    <td>
+                                        1
+                                        <select name="weight" id="weight">
+                                            <option value="KG">KG</option>
+                                            <option value="Gram">Gram</option>
+                                            <option value="Ltr">Ltr</option>
+                                            <option value="Pc">Pc</option>
+                                        </select>
+                                        
+                                    </td>
+                                    <!-- <td>
+                                        <a href="view_customer_edit.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-success">Edit</button></a>
+                                        <a href="view_customer_delete.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-danger">Delete</button></a>
+                                    </td> -->
                                 </tr>
 
                                 <tr>
@@ -266,29 +330,10 @@
                                         </select>
                                         
                                     </td>
-                                    <td>
+                                    <!-- <td>
                                         <a href="view_customer_edit.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-success">Edit</button></a>
                                         <a href="view_customer_delete.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-danger">Delete</button></a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>25/5/23</td>
-                                    <td>Swets</td>
-                                    <td>
-                                        5
-                                        <select name="weight" id="weight">
-                                            <option value="KG">KG</option>
-                                            <option value="Gram">Gram</option>
-                                            <option value="Ltr">Ltr</option>
-                                            <option value="Pc">Pc</option>
-                                        </select>
-                                        
-                                    </td>
-                                    <td>
-                                        <a href="view_customer_edit.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-success">Edit</button></a>
-                                        <a href="view_customer_delete.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-danger">Delete</button></a>
-                                    </td>
+                                    </td> -->
                                 </tr>
                                 <tr>
                                     <td>2</td>
@@ -304,10 +349,10 @@
                                         </select>
                                         
                                     </td>
-                                    <td>
+                                    <!-- <td>
                                         <a href="view_customer_edit.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-success">Edit</button></a>
                                         <a href="view_customer_delete.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-danger">Delete</button></a>
-                                    </td>
+                                    </td> -->
                                 </tr>
 
                                 <tr>
@@ -324,10 +369,98 @@
                                         </select>
                                         
                                     </td>
-                                    <td>
+                                    <!-- <td>
                                         <a href="view_customer_edit.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-success">Edit</button></a>
                                         <a href="view_customer_delete.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-danger">Delete</button></a>
+                                    </td> -->
+                                </tr>
+
+                                
+                               
+
+
+
+                               
+                            </tbody>
+                        </table>
+                            
+                            
+                </div>
+                <div class="card-header"> <h5 class="basic_font">Supriya Expendature :</h5> </div>
+                <div class="card-body ">
+                            
+                                           
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Sr No</th>
+                                    <th>Date</th>
+                                    <th>Items</th>
+                                    <th>Amount</th>
+                                    <!-- <th>Action</th> -->
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                
+                                <tr>
+                                    <td>1</td>
+                                    <td>10/5/23</td>
+                                    <td>Basmati Rice</td>
+                                    <td>
+                                        10
+                                        <select name="weight" id="weight">
+                                            <option value="KG">KG</option>
+                                            <option value="Gram">Gram</option>
+                                            <option value="Ltr">Ltr</option>
+                                            <option value="Pc">Pc</option>
+                                        </select>
+                                        
                                     </td>
+                                    <!-- <td>
+                                        <a href="view_customer_edit.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-success">Edit</button></a>
+                                        <a href="view_customer_delete.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-danger">Delete</button></a>
+                                    </td> -->
+                                </tr>
+
+                                <tr>
+                                    <td>2</td>
+                                    <td>15/5/23</td>
+                                    <td>Amul Milk</td>
+                                    <td>
+                                        20
+                                        <select name="weight" id="weight">
+                                            <option value="KG">KG</option>
+                                            <option value="Gram">Gram</option>
+                                            <option value="Ltr">Ltr</option>
+                                            <option value="Pc">Pc</option>
+                                        </select>
+                                        
+                                    </td>
+                                    <!-- <td>
+                                        <a href="view_customer_edit.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-success">Edit</button></a>
+                                        <a href="view_customer_delete.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-danger">Delete</button></a>
+                                    </td> -->
+                                </tr>
+
+                                <tr>
+                                    <td>3</td>
+                                    <td>21/5/23</td>
+                                    <td>Gas</td>
+                                    <td>
+                                        1
+                                        <select name="weight" id="weight">
+                                            <option value="KG">KG</option>
+                                            <option value="Gram">Gram</option>
+                                            <option value="Ltr">Ltr</option>
+                                            <option value="Pc">Pc</option>
+                                        </select>
+                                        
+                                    </td>
+                                    <!-- <td>
+                                        <a href="view_customer_edit.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-success">Edit</button></a>
+                                        <a href="view_customer_delete.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-danger">Delete</button></a>
+                                    </td> -->
                                 </tr>
 
                                 <tr>
@@ -344,11 +477,52 @@
                                         </select>
                                         
                                     </td>
-                                    <td>
+                                    <!-- <td>
                                         <a href="view_customer_edit.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-success">Edit</button></a>
                                         <a href="view_customer_delete.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-danger">Delete</button></a>
-                                    </td>
+                                    </td> -->
                                 </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>15/5/23</td>
+                                    <td>Amul Milk</td>
+                                    <td>
+                                        20
+                                        <select name="weight" id="weight">
+                                            <option value="KG">KG</option>
+                                            <option value="Gram">Gram</option>
+                                            <option value="Ltr">Ltr</option>
+                                            <option value="Pc">Pc</option>
+                                        </select>
+                                        
+                                    </td>
+                                    <!-- <td>
+                                        <a href="view_customer_edit.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-success">Edit</button></a>
+                                        <a href="view_customer_delete.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-danger">Delete</button></a>
+                                    </td> -->
+                                </tr>
+
+                                <tr>
+                                    <td>3</td>
+                                    <td>21/5/23</td>
+                                    <td>Gas</td>
+                                    <td>
+                                        1
+                                        <select name="weight" id="weight">
+                                            <option value="KG">KG</option>
+                                            <option value="Gram">Gram</option>
+                                            <option value="Ltr">Ltr</option>
+                                            <option value="Pc">Pc</option>
+                                        </select>
+                                        
+                                    </td>
+                                    <!-- <td>
+                                        <a href="view_customer_edit.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-success">Edit</button></a>
+                                        <a href="view_customer_delete.php?id=<?php echo $list['Customer_id'];?>"><button type="button" class="btn btn-danger">Delete</button></a>
+                                    </td> -->
+                                </tr>
+
+                                
                                
 
 
